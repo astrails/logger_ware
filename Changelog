@@ -1,3 +1,8 @@
+# 0.0.2
+
+  - use `PATH_INFO` instead of `REQUEST_PATH`.
+    `REQUEST_PATH` is not always passed
+
 # 0.0.1
 
   initial version

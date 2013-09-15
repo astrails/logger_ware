@@ -5,7 +5,7 @@ module LoggerWare
     include Filter
 
     COLLECT_PARAMS = {
-      request_path:  'REQUEST_PATH',
+      request_path:  'PATH_INFO',
       method:        'REQUEST_METHOD',
       request_uri:   'REQUEST_URI',
       user_agent:    'HTTP_USER_AGENT',
